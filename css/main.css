@@ -1,0 +1,210 @@
+/* ===== RESET ===== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'EB Garamond', serif;
+  background: #fff;
+  color: #000;
+}
+
+/* ===== NAVBAR ===== */
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  background: #ffffff;
+  border-bottom: 1px solid #e5e5e5;
+  z-index: 1000;
+}
+
+.nav-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #000;
+  font-size: 15px;
+}
+
+.nav-menu a:hover {
+  opacity: 0.6;
+}
+
+/* ===== HERO ===== */
+
+.hero {
+  margin-top: 70px;
+  height: 500px;
+  background: url("../images/v2_7.png") center/cover no-repeat;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.2));
+}
+
+.hero-content {
+  position: relative;
+  color: white;
+  z-index: 2;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+}
+
+/* ===== PORTFOLIO ===== */
+
+.portfolio {
+  padding: 100px 0;
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 32px;
+  margin-bottom: 60px;
+}
+
+.carousel {
+  display: flex;
+  gap: 30px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.project {
+  min-width: 350px;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  text-decoration: none;
+  color: white;
+  scroll-snap-align: start;
+  transition: transform 0.3s ease;
+}
+
+.project:hover {
+  transform: scale(1.03);
+}
+
+.project-overlay {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  text-align: right;
+}
+
+.project-overlay h3 {
+  font-size: 24px;
+}
+
+.project-overlay p {
+  font-size: 16px;
+}
+
+/* ===== PROJECT BACKGROUNDS ===== */
+
+.project_01 {
+  background-image: url("../images/v3_3.png");
+}
+
+.project_02 {
+  background-image: url("../images/v3_14.png");
+}
+
+.project_03 {
+  background-image: url("../images/v3_19.png");
+}
+
+/* ===== BUTTON ===== */
+
+.portfolio-button {
+  margin-top: 60px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 30px;
+  border: 1px solid #000;
+  text-decoration: none;
+  color: #000;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: #000;
+  color: #fff;
+}
+
+/* ===== SEPARATOR ===== */
+
+.separator {
+  width: 80%;
+  margin: 80px auto;
+  border: none;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* ===== FOOTER ===== */
+
+.footer {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.footer-content a {
+  text-decoration: none;
+  color: #939393;
+  font-size: 14px;
+}
+
+.footer-content a:hover {
+  color: #000;
+}
