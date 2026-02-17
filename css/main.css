@@ -172,10 +172,38 @@ body {
 .project_07 { background-image: url("../images/v18_29.png"); }
 .project_08 { background-image: url("../images/v18_34.png"); }
 
-/* ============================= */
-/* ========= FOOTER ============ */
-/* ============================= */
+/* ===== BUTTON ===== */
 
+.portfolio-button {
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 30px;
+  border: 1px solid #000;
+  text-decoration: none;
+  color: #000;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: #000;
+  color: #fff;
+}
+
+
+/* ===== SEPARATOR ===== */
+
+.separator {
+  width: 80%;
+  margin: 80px auto;
+  border: none;
+  border-top: 1px solid #e5e5e5;
+}
+
+
+/* ===== FOOTER ===== */
 
 .footer {
   padding: 40px 0;
@@ -198,7 +226,6 @@ body {
 .footer-content a:hover {
   color: #000;
 }
-
 /* ============================= */
 /* ========= RESPONSIVE ======== */
 /* ============================= */
