@@ -176,12 +176,27 @@ body {
 /* ========= FOOTER ============ */
 /* ============================= */
 
+
 .footer {
   padding: 40px 0;
   text-align: center;
-  border-top: 1px solid #e5e5e5;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.footer-content a {
+  text-decoration: none;
+  color: #939393;
   font-size: 14px;
-  margin-top: 80px;
+  transition: color 0.3s ease;
+}
+
+.footer-content a:hover {
+  color: #000;
 }
 
 /* ============================= */
