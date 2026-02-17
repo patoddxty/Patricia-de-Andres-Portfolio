@@ -35,6 +35,11 @@ body {
   justify-content: space-between;
 }
 
+.logo {
+  display: flex; 
+  justify-content: center;
+}
+
 .logo img {
   display: block;
 }
