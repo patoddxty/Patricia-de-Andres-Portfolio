@@ -84,7 +84,6 @@ body {
   margin-bottom: 10px;
   flex-direction: column; /* O row */
   justify-content: flex-end; /* Alinea al final del eje principal */
-  height: 100vh; /* Altura necesaria */
 }
 
 .hero h1 {
