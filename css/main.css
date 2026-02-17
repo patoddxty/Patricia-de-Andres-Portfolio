@@ -86,7 +86,7 @@ body {
 .hero-content {
   position: relative;
   color: white;
-  align-items: center;
+  align-items: flex-end;
   text-align: center;
   margin-bottom: 10px;
   z-index: 2;
