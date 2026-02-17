@@ -59,7 +59,7 @@ body {
 
 .hero {
   margin-top: 70px;
-  height: 500px;
+  height: 300px;
   background: url("../images/v2_7.png") center/cover no-repeat;
   position: relative;
   display: flex;
