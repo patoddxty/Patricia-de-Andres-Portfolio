@@ -170,14 +170,14 @@ body {
 /* ===== PROJECT IMAGES ======== */
 /* ============================= */
 
-.project_01 { background-image: url("../images/v4_106.png"); }
-.project_02 { background-image: url("../images/v4_111.png"); }
-.project_03 { background-image: url("../images/v4_116.png"); }
-.project_04 { background-image: url("../images/v15_9.png"); }
-.project_05 { background-image: url("../images/v15_14.png"); }
-.project_06 { background-image: url("../images/v18_24.png"); }
-.project_07 { background-image: url("../images/v18_29.png"); }
-.project_08 { background-image: url("../images/v18_34.png"); }
+.project_01 { background-image: url("../images/v4_106.png"); center/cover no-repeat}
+.project_02 { background-image: url("../images/v4_111.png"); center/cover no-repeat}
+.project_03 { background-image: url("../images/v4_116.png"); center/cover no-repeat}
+.project_04 { background-image: url("../images/v15_9.png"); center/cover no-repeat}
+.project_05 { background-image: url("../images/v15_14.png"); center/cover no-repeat}
+.project_06 { background-image: url("../images/v18_24.png"); center/cover no-repeat}
+.project_07 { background-image: url("../images/v18_29.png"); center/cover no-repeat}
+.project_08 { background-image: url("../images/v18_34.png"); center/cover no-repeat}
 
 /* ===== BUTTON ===== */
 
