@@ -211,6 +211,7 @@ body {
 .footer-content {
   display: flex;
   justify-content: center;
+  gap: 50px;
 }
 
 .footer-content a {
