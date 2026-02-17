@@ -195,8 +195,8 @@ body {
 /* ===== SEPARATOR ===== */
 
 .separator {
-  width: 80%;
-  margin: 80px auto;
+  width: 100%;
+  margin: 20px auto;
   border: none;
   border-top: 1px solid #e5e5e5;
 }
