@@ -258,8 +258,7 @@ body {
 
 .Columns {
   width: 90%;
-  max-width: 1000px;
-  margin: 80px auto;
+  margin: 20px auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 60px;
@@ -288,7 +287,6 @@ body {
   margin: 60px auto 120px auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
   gap: 30px;
 }
 
