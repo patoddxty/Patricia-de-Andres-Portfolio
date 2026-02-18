@@ -286,13 +286,15 @@ body {
 .Grid {
   width: 90%;
   max-width: 1000px;
-  margin: 60px auto 120px auto;
+  margin: 30px auto 120px auto; /* reducido espacio superior */
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
+  gap: 30px; /* mismo gap en filas y columnas */
 }
 
 .Grid div {
+  width: 100%;
+  aspect-ratio: 4 / 5; /* proporción elegante sin hacks */
   background-size: cover;
   background-position: center;
 }
