@@ -254,11 +254,13 @@ body {
   margin-top: 5px;
 }
 
+
 /* COLUMNS */
 
 .Columns {
   width: 90%;
-  margin: 20px auto;
+  max-width: 1000px;
+  margin: 80px auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 60px;
@@ -284,8 +286,9 @@ body {
 .Grid {
   width: 90%;
   max-width: 1000px;
-  margin: 20px auto 20px auto;
+  margin: 60px auto 120px auto;
   display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 30px;
 }
 
