@@ -284,9 +284,8 @@ body {
 .Grid {
   width: 90%;
   max-width: 1000px;
-  margin: 60px auto 120px auto;
+  margin: 20px auto 20px auto;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
   gap: 30px;
 }
 
