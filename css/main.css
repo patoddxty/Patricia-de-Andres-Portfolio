@@ -290,7 +290,7 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
-  row-gap: 20px; 
+  row-gap: 30px; 
 }
 
 .Grid div {
