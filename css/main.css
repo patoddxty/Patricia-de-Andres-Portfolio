@@ -365,16 +365,3 @@ body {
     gap: 20px;
   }
 }
-
-@media (max-width: 900px) {
-  
-  .Grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 600px) {
-  .Grid {
-    grid-template-columns: 1fr;
-  }
-}
