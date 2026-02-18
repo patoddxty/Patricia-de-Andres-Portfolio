@@ -1,5 +1,6 @@
-/* ========= RESET ============= */
-/* ============================= */
+/* ================================= */
+/* ============= RESET ============= */
+/* ================================= */
 
 * {
   margin: 0;
@@ -11,11 +12,12 @@ body {
   font-family: 'EB Garamond', serif;
   background: #ffffff;
   color: #000;
+  line-height: 1.6;
 }
 
-/* ============================= */
-/* ========= NAVBAR ============ */
-/* ============================= */
+/* ================================= */
+/* ============= NAVBAR ============ */
+/* ================================= */
 
 .navbar {
   position: fixed;
@@ -61,9 +63,9 @@ body {
   opacity: 0.6;
 }
 
-/* ============================= */
-/* ============ HERO =========== */
-/* ============================= */
+/* ================================= */
+/* ============ HERO =============== */
+/* ================================= */
 
 .hero {
   margin-top: 70px;
@@ -75,14 +77,9 @@ body {
   justify-content: center;
 }
 
-.hero-portfolio {
-  background: url("../images/v4_105.png") center/cover no-repeat;
-}
-
 .hero-overlay {
   position: absolute;
-  width: 100%;
-  height: 100%;
+  inset: 0;
   background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.2));
 }
 
@@ -95,37 +92,27 @@ body {
 
 .hero h1 {
   font-size: 48px;
-  margin-bottom: 10px;
 }
 
 .hero p {
   font-size: 18px;
 }
 
-/* ============================= */
-/* ========= PORTFOLIO ========= */
-/* ============================= */
+/* ================================= */
+/* ============ PORTFOLIO ========== */
+/* ================================= */
 
 .portfolio {
-  padding: 80px 0;
-  margin-top: 30px;
+  padding: 100px 0;
   width: 90%;
   max-width: 1200px;
   margin: auto;
-  text-align: center;
-}
-
-.section-title { 
-  font-size: 32px; 
-  text-align: center;
-  margin-bottom: 10px; 
 }
 
 .carousel {
   display: flex;
   flex-direction: column;
   gap: 40px;
-  align-items: center;
 }
 
 .project {
@@ -160,61 +147,130 @@ body {
 
 .project-overlay h3 {
   font-size: 26px;
-  margin-bottom: 5px;
 }
 
 .project-overlay p {
   font-size: 16px;
 }
 
-/* ============================= */
-/* ===== PROJECT IMAGES ======== */
-/* ============================= */
+/* ================================= */
+/* ========== PROJECT PAGE ========= */
+/* ================================= */
 
-.project_01 { background-image: url("../images/v4_106.png"); center/cover no-repeat}
-.project_02 { background-image: url("../images/v4_111.png"); center/cover no-repeat}
-.project_03 { background-image: url("../images/v4_116.png"); center/cover no-repeat}
-.project_04 { background-image: url("../images/saturday_cover.png"); center/cover no-repeat}
-.project_05 { background-image: url("../images/exlibris_cover.png"); center/cover no-repeat}
-.project_06 { background-image: url("../images/arrival_cover.jpg"); center/cover no-repeat}
-.project_07 { background-image: url("../images/portraits_cover.jpg"); center/cover no-repeat}
-.project_08 { background-image: url("../images/v15_9.png"); center/cover no-repeat}
+/* COVER */
 
-/* ===== BUTTON ===== */
-
-.portfolio-button {
-  margin-top: 20px;
+.Cover {
+  margin-top: 70px;
+  height: 400px;
+  position: relative;
 }
 
-.btn {
-  display: inline-block;
-  padding: 12px 30px;
-  border: 1px solid #000;
-  text-decoration: none;
-  color: #000;
-  transition: all 0.3s ease;
+.Cover-Image {
+  width: 100%;
+  height: 100%;
+  background: url("../images/Cover-Image.png") center/cover no-repeat;
 }
 
-.btn:hover {
-  background: #000;
-  color: #fff;
+.Cover::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6));
 }
 
-/* ===== SEPARATOR ===== */
+.Cover-Content {
+  position: absolute;
+  bottom: 40px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  z-index: 2;
+}
+
+.Cover-Title {
+  font-size: 32px;
+  display: block;
+}
+
+.Cover-Subtitle {
+  font-size: 18px;
+  display: block;
+  margin-top: 5px;
+}
+
+/* COLUMNS */
+
+.Columns {
+  width: 90%;
+  max-width: 1000px;
+  margin: 80px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+}
+
+.Column_01,
+.Column_02 {
+  font-size: 16px;
+  text-align: justify;
+}
+
+/* SEPARATOR IMAGE */
+
+.separator-image {
+  width: 300px;
+  height: 20px;
+  background: url("../images/separator-image.png") center/contain no-repeat;
+  margin: 60px auto;
+}
+
+/* GRID */
+
+.Grid {
+  width: 90%;
+  max-width: 1000px;
+  margin: 60px auto 120px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.Grid div {
+  width: 100%;
+  padding-top: 85%;
+  background-size: cover;
+  background-position: center;
+}
+
+/* GRID IMAGES */
+
+.Grid-Column01-Img01 { background-image: url("../images/Grid-Column01-Img01.png"); }
+.Grid-Column01-Img02 { background-image: url("../images/Grid-Column01-Img02.png"); }
+.Grid-Column01-Img03 { background-image: url("../images/Grid-Column01-Img03.png"); }
+
+.Grid-Column02-Img01 { background-image: url("../images/Grid-Column02-Img01.png"); }
+.Grid-Column02-Img02 { background-image: url("../images/Grid-Column02-Img02.png"); }
+.Grid-Column02-Img03 { background-image: url("../images/Grid-Column02-Img03.png"); }
+
+.Grid-Column03-Img01 { background-image: url("../images/Grid-Column03-Img01.png"); }
+.Grid-Column03-Img02 { background-image: url("../images/Grid-Column03-Img02.png"); }
+.Grid-Column03-Img03 { background-image: url("../images/Grid-Column03-Img03.png"); }
+
+/* ================================= */
+/* ============= FOOTER ============ */
+/* ================================= */
 
 .separator {
-  width: 100%;
-  margin: 20px auto;
+  width: 90%;
+  max-width: 1200px;
+  margin: 40px auto;
   border: none;
   border-top: 1px solid #e5e5e5;
 }
 
-/* ===== FOOTER ===== */
-
 .footer {
-  padding: 10px;
+  padding: 30px 0 60px 0;
   text-align: center;
-  margin-bottom: 20px;
 }
 
 .footer-content {
@@ -234,27 +290,34 @@ body {
   color: #000;
 }
 
-/* ========= RESPONSIVE ======== */
+/* ================================= */
+/* ============ RESPONSIVE ========= */
+/* ================================= */
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
 
-  .hero h1 {
-    font-size: 34px;
+  .Columns {
+    grid-template-columns: 1fr;
+  }
+
+  .Grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .Grid {
+    grid-template-columns: 1fr;
   }
 
   .project {
     height: 280px;
   }
 
-  .project-overlay h3 {
-    font-size: 20px;
+  .hero h1 {
+    font-size: 34px;
   }
 
-  .project-overlay p {
-    font-size: 14px;
-  }
-
-  .nav-menu {
-    gap: 20px;
-  }
 }
