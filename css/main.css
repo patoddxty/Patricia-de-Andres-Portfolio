@@ -224,7 +224,7 @@ body {
 .Cover-Image {
   width: 100%;
   height: 100%;
-  background: url("../images/Cover-Image.png") center/cover no-repeat;
+  background: var(--cover-image) center/cover no-repeat;
 }
 
 .Cover::after {
@@ -296,25 +296,9 @@ body {
 
 .Grid div {
   width: 100%;
-  height: 350px; /* ← esto es lo que faltaba */
-  background-size: cover;
-  background-position: center;
+  height: 350px;
+  background: var(--img) center/cover no-repeat;
 }
-
-/* GRID IMAGES */
-
-.Grid-Column01-Img01 { background-image: url("../images/Grid-Column01-Img01.png"); }
-.Grid-Column01-Img02 { background-image: url("../images/Grid-Column01-Img02.png"); }
-.Grid-Column01-Img03 { background-image: url("../images/Grid-Column01-Img03.png"); }
-
-.Grid-Column02-Img01 { background-image: url("../images/Grid-Column02-Img01.png"); }
-.Grid-Column02-Img02 { background-image: url("../images/Grid-Column02-Img02.png"); }
-.Grid-Column02-Img03 { background-image: url("../images/Grid-Column02-Img03.png"); }
-
-.Grid-Column03-Img01 { background-image: url("../images/Grid-Column03-Img01.png"); }
-.Grid-Column03-Img02 { background-image: url("../images/Grid-Column03-Img02.png"); }
-.Grid-Column03-Img03 { background-image: url("../images/Grid-Column03-Img03.png"); }
-
 
 /* ===== FOOTER ===== */
 
