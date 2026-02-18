@@ -289,7 +289,9 @@ body {
   margin: 30px auto 120px auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
 }
 
 .Grid > div {
