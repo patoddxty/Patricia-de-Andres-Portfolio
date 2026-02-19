@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Project - Mapa Museológico</title>
+  <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+ <!-- ===== NAVBAR ===== -->
+ <header class="navbar">
+    <div class="nav-container">
+
+      <!-- Espacio izquierdo vacío para centrar logo perfectamente -->
+      <div></div>
+
+      <!-- Logo centrado -->
+      <a href="index.html" class="logo">
+        <img src="https://i.imgur.com/W5gTdv5.png" alt="PDA" height="35">
+      </a>
+
+      <ul class="nav-menu">
+        <li><a href="https://patoddxty.github.io/Patricia-de-Andres-Portfolio/index.html">Home</a></li>
+        <li><a href="https://patoddxty.github.io/Patricia-de-Andres-Portfolio/portfolio.html">Portfolio</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+
+    </div>
+  </header>
+  
+<!-- ===== COVER  ===== -->
+
+      <div class="Cover" style="--cover-image: url('../images/mapa_cover.jpg');">
+        <div class="Cover-Image"></div>
+        <div class="Cover-Content">
+          <span class="Cover-Title">Mapa Museológico</span>
+          <span class="Cover-Subtitle">Academic research project</span>
+        </div>
+      </div>
+  
+  <!-- ===== COLUMNS  ===== -->
+
+      <div class="Columns">
+        <span class="Column_01">
+          Museological Map is a digital research and development project focused on creating an interactive platform that connects museums and cultural institutions through a virtual map. The project explores the relationship between territory, history, and cultural identity in each city, facilitating access to heritage and its understanding through digital tools applied to the museum and educational fields. This project was presented with a poster at the 25th National Congress of Art History, ‘La ciudad y las artes,’ organised by CEHA and the Department of Art History at the University of Murcia.
+        </span>
+
+        <span class="Column_02">
+        This proposal focuses on universal accessibility to our culture and heritage through a digital platform. Its main motivation is to define the territorial identity of cities through their museums and places of interest, as they safeguard the history and legacy of these locations. This virtual map aims to draw a direct relationship between museums and why they are located in the city where they are.
+        </span>
+      </div>
+
+    <!-- ===== SEPARATOR  ===== -->
+
+    <div class="separator-image"></div>
+
+    <!-- ===== GRID  ===== -->
+
+  <div class="Grid">
+      <div style="--img: url('../images/mapa_01.jpg');"></div>
+      <div style="--img: url('../images/mapa_02.jpg');"></div>
+      <div style="--img: url('../images/mapa_03.jpg');"></div>
+
+      <div style="--img: url('../images/mapa_04.jpg');"></div>
+      <div style="--img: url('../images/mapa_05.jpg');"></div>
+      <div style="--img: url('../images/mapa_06.jpg');"></div>
+
+      <div style="--img: url('../images/mapa_07.jpg');"></div>
+      <div style="--img: url('../images/mapa_08.jpg');"></div>
+      <div style="--img: url('../images/mapa_09.jpg');"></div>
+  </div>
+
+
+      <!-- ===== FOOTER  ===== -->
+
+  <hr class="separator">
+  
+  <footer class="footer">
+    <div class="footer-content">
+      <a href="mailto:patriciadeandres00@gmail.com">Mail</a>
+      <a href="https://www.linkedin.com/in/patricia-de-andres-gonzalez">LinkedIn</a>
+      <a href="https://www.behance.net/patricideandr">Behance</a>
+    </div>
+  </footer>
+
+    </div>
+  </body>
+</html>
