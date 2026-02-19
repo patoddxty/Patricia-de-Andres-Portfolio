@@ -131,8 +131,7 @@ body {
 .project {
   width: 100%;
   height: 400px;
-  background-size: cover;
-  background-position: center;
+  background: var(--project-image) center/cover no-repeat;
   position: relative;
   text-decoration: none;
   color: white;
